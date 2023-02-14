@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="index.css" />
+    <title>UX helloworld</title>
+</head>
+  <body>
+    <h1>User experience 2023 by Vitor</h1>
+    <div id="flip">Click to slide down panel</div>
+    <div id="panel">
+      <h2>Hello world by Vitor!</h2>
+        <img src="images/sunrise2.jpg" />&nbsp;
+        <img src="images/sunset1.1.png" />&nbsp;
+        <img src="images/midlemoon2.jpg" />&nbsp;  
+      </div>
+  </body>
+  <script>
+    $(document).ready(function () {
+      $("#flip").click(function () {
+        $("#panel").slideToggle(3000);
+      });
+    });
+  </script>
+      <script src="loading.js"></script>
+</html>
+
+
